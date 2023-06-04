@@ -1,0 +1,633 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* перший блок 1 */
+
+.block1{
+    width: 100%;
+    height: 1056px;
+}
+
+nav{
+    width: 100%;
+    height: 164px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    width: 90%;
+    height: 100% ;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100% ;
+    display: flex;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    height: 100% ;
+}
+
+.logo{
+    width: 31px;
+    height: 29px;
+}
+
+.fashion{
+    font-size: 40px;
+    margin-left: 13px;
+    font-weight: 900;
+}
+
+.f1{
+    height: 100% ;
+    display: flex;
+    align-items: center;
+}
+
+.menu-item{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.singup{
+    width: 134px;
+    height: 62px;
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    font-size: 22px;
+}
+
+
+
+/* контейнер 1 */
+
+.container{
+    width: 100%;
+    height: 902px;
+    display: flex;
+    justify-content: center;
+}
+
+.box1{
+    width: 90%;
+    height: 852px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 59px;
+    display: flex;
+}
+
+.box-left{
+    width: 45%;
+    height: 100%;
+    border-radius: 59px;
+}
+
+.f3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-up{
+    width: 90%;
+    height: 70%;
+    border-radius: 59px;
+}
+
+.text1{
+    font-size: 96px;
+    margin-top: 77px;
+    font-weight: 900;
+}
+
+.text2{
+    font-size: 32px;
+    margin-top: 40px;
+}
+
+.box-down{
+    width: 80%;
+    height: 20%;
+    border-radius: 59px;
+    display: flex;
+    justify-content: end;
+}
+
+.shopnow{
+    width: 221px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-top: 32px;
+}
+
+.box-right{
+    width: 55%;
+    height: 100%;
+    border-radius: 59px;
+    display: flex;
+    align-items: end;
+}
+
+.foto1{
+    width: 871px;
+    height: 784px;
+}
+
+/* .pngyellow{
+    width: 500px;
+    height: 118px;
+    z-index: -1;
+    background-color: yellow;
+    position: relative;
+} */
+
+
+/* блок 2 */
+
+.block2{
+    width: 100%;
+    height: 1412px;
+}
+
+.nav2{
+    width: 100%;
+    height: 186px;
+    background: white
+}
+
+.menu2{
+    height: 186px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+.container2{
+    width: 100%;
+    height: 1226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-up2{
+    width: 90%;
+    height: 228px;
+    display: flex;
+    align-items: center;
+}
+
+.box-down2{
+    width: 90%;
+    height: 998px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.na{
+    font-size: 41px;
+    font-weight: 900;
+}
+
+.box2-1{
+    width: 484px;
+    height: 808px;
+    border-radius: 20px;
+}
+
+.box2-2{
+    width: 484px;
+    height: 808px;
+    border-radius: 20px;
+}
+
+.box2-3{
+    width: 484px;
+    height: 808px;
+    border-radius: 20px;
+}
+
+.box-on{
+    width: 484px;
+    height: 704px;
+    border-radius: 20px;
+}
+
+.box-in{
+    width: 484px;
+    height: 104px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.box-in-left{
+    width: 100px;
+    height: 104px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.f5{
+    width: 484px;
+    height: 104px;
+    border-radius: 20px;
+    margin-top: 7px;
+}
+
+.text3{
+    font-size: 32px;
+}
+
+.text3-1{
+    font-size: 24px;
+    margin-top: 7px;
+}
+
+
+
+/* блок 3 */
+
+.block3{
+    width: 100%;
+    height: 968px;
+    display: flex;
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+}
+
+.box-left3{
+    width: 50%;
+    height: 968px;
+}
+
+.box-right3{
+    width: 32%;
+    height: 968px;
+}
+
+.text4{
+    font-size: 112px;
+    font-weight: 900;
+    margin-top: 139px;
+}
+
+.text4-1{
+    font-size: 36px;
+    margin-top: 33px;
+}
+
+.text4-2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 39px;
+}
+
+.text4-3{
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.text4-4{
+    width: 265px;
+    height: 95px;
+    background-color: black;
+    color: white;
+    font-size: 27px;
+    border-radius: 8px;
+    margin-top: 51px;
+}
+
+
+
+/* блок 4 */
+
+.block4{
+    width: 100%;
+    height: 1230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-up4{
+    width: 90%;
+    height: 278px;
+    display: flex;
+    align-items: center;
+}
+
+.box-down4{
+    width: 90%;
+    height: 890px;
+    display: flex;
+}
+
+.box-left4{
+    width: 50%;
+    height: 100%;
+}
+
+.box-right4{
+    width: 50%;
+    height: 100%;
+}
+
+.yf{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.f6{
+    width: 484px;
+    height: 104px;
+    border-radius: 20px;
+}
+
+.foto6{
+    width: 834px;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.box-in-left4{
+    width: 100px;
+    height: 104px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+
+
+/* блок 5 */
+
+.block5{
+    width: 100%;
+    height: 1151px;
+    display: flex;
+}
+
+.box-left5{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-right5{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5{
+    width: 510px;
+    height: 381px;
+}
+
+.box5-1{
+    width: 100%;
+    height: 144px;
+}
+
+.box5-2{
+    width: 90%;
+    height: 147px;
+    display: flex;
+    align-items: center;
+}
+
+.box5-3{
+    width: 90%;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.download5{
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.sell5{
+    font-size: 24px;
+    font-weight: 500;
+    color: #7C7C7C;
+}
+
+
+
+/* блок 6 */
+
+.block6{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #E5C643;
+}
+
+.box6{
+    width: 1010px;
+    height: 330px;
+}
+
+.box6-1{
+    width: 100%;
+    height: 124px;
+}
+
+.box6-2{
+    width: 100%;
+    height: 29px;
+    margin-top: 37px;
+}
+
+.box6-3{
+    width: 100%;
+    height: 87px;
+    margin-top: 49px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join6{
+    font-size: 55px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+}
+
+.email6{
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFFCF8;
+    text-align: center;
+}
+
+.input6{
+    width: 574px;
+    height: 87px;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #767676;
+    border: none;
+    padding-left: 2%;
+}
+
+.bt6{
+    width: 161px;
+    height: 67px;
+    border-radius: 8px;
+    font-size: 33px;
+    background-color: black;
+    color: white;
+    margin-left: 20px;
+}
+
+
+
+/* блок 7 */
+
+.block7{
+    width: 100%;
+    height: 545px;
+    display: flex;
+}
+
+.box-left7{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.box-right7{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.box7{
+    width: 415px;
+    height: 250px;
+    margin-left: 100px;
+}
+
+.box7-1{
+    width: 100%;
+    height: 84px;
+    margin-left: 10px;
+}
+
+.box7-2{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.box7-3{
+    width: 100%;
+    height: 84px;
+    display: flex;
+    align-items: end;
+    justify-content: start;
+}
+
+.fasion7{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+}
+
+.complete7{
+    font-size: 24px;
+    font-weight: 400;
+    color: #8E8E8E;
+}
+
+.box-yellow{
+    width: 52px;
+    height: 52px;
+    background: #EBD96B;
+    border-radius: 15px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.boxr7{
+    width: 890px;
+    height: 273px;
+}
+
+td{
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #787878;
+}
+
+.w7{
+    font-size: 24px;
+    font-weight: 400;
+    color: #e3e3e3;
+}
+
+
+
+li:hover{
+    border-bottom: 2px solid black;
+    cursor: auto;
+}
+
+td:hover{
+    cursor: auto;
+}
+
+img:hover{
+    cursor: auto;
+}
+
+button:hover{
+    cursor: auto;
+}
